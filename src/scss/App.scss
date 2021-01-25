@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&display=swap');
-*{margin: 0;padding: 0;font-family: 'Noto Sans KR', sans-serif;font-weight: 500;line-height: 150%;}
+*{margin: 0;padding: 0;font-family: 'Noto Sans KR', sans-serif;font-weight: 500;line-height: 150%;box-sizing: border-box;}
 
 button{border: none;cursor: pointer;background-color: transparent;}
 li{list-style: none;}
+a{text-decoration: none;color: #333;}
+input[type="text"],select,textarea{width: 100%;height: 45px;padding: 0 15px;border: 1px solid #ddd;font-size: 18px;font-weight: 300;}
+textarea{height: 250px;padding: 15px;}
 
 html,body{height: 100%;}
 #App{height: 100%;}
@@ -53,14 +56,34 @@ html,body{height: 100%;}
   }
 }
 
+.container{width: 1200px;max-width: 90%;margin: 0 auto;}
+
 .experience{margin-bottom: 230px;
-  .lst{width: 1200px;margin: 0 auto;
-    ul{font-size: 0;
-      li{display: inline-block;width: 180px;margin-left: 20px;margin-bottom: 40px;
+  .lst{
+    ul{margin-left: -24px; font-size: 0;
+      li{display: inline-block;width: 180px;margin-left: 24px;margin-bottom: 40px;vertical-align: top;
         .img{display: flex;width: 100%;height: 87px;margin-bottom: 10px;background-color: #ebebeb;}
         .t1{font-size: 18px;color: #333;}
         .t2{font-size: 14px;font-weight: 300;color: #666;}
       }
     }
+  }
+}
+
+.portpolio{margin-bottom: 230px;
+  .lst{
+    ul{margin-left: -20px;font-size: 0;
+      li{display: inline-block;width: 285px;margin-left: 20px;margin-bottom: 70px;vertical-align: top;
+        .img{display: flex;width: 100%;height: 174px;margin-bottom: 10px;background-color: #ebebeb;}
+        .t1{font-size: 18px;color: #333;}
+        .t2{font-size: 14px;font-weight: 300;color: #666;}
+      }
+    }
+  }
+}
+
+.contact{padding-bottom: 230px;
+  .line{margin-bottom: 20px;
+    .sbm_btn{display: block;width: 250px;margin: 0 auto;height: 60px;font-size: 18px;color: #fff;background-color: #333;}
   }
 }
