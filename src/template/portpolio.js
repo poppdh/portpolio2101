@@ -1,3 +1,7 @@
+import { BsDisplay } from "react-icons/bs";
+import { BsTablet } from "react-icons/bs";
+import { BsAspectRatio } from "react-icons/bs";
+
 function Portpolio() {
     return (
         <div className="lst container">
@@ -9,7 +13,7 @@ function Portpolio() {
                 </div>
                 <p className="t1">대성에너지</p>
                 <p className="t2">http://www.daesungenergy.com/</p>
-                <i className="r"></i>
+                <BsAspectRatio className="type" />
                 </a>
             </li>
             <li>
@@ -19,7 +23,7 @@ function Portpolio() {
                 </div>
                 <p className="t1">예울마루</p>
                 <p className="t2">https://www.yeulmaru.org/</p>
-                <i className="r"></i>
+                <BsAspectRatio className="type" />
                 </a>
             </li>
             <li>
@@ -29,7 +33,8 @@ function Portpolio() {
                 </div>
                 <p className="t1">고려제약</p>
                 <p className="t2">https://www.nicepharma.com/</p>
-                <i className="r"></i>
+                <BsDisplay className="type" />
+                <BsTablet className="type" />
                 </a>
             </li>
             <li>
@@ -39,7 +44,8 @@ function Portpolio() {
                 </div>
                 <p className="t1">인데이</p>
                 <p className="t2">https://www.inday.co.kr/</p>
-                <i className="r"></i>
+                <BsDisplay className="type" />
+                <BsTablet className="type" />
                 </a>
             </li>
 
@@ -50,7 +56,7 @@ function Portpolio() {
                 </div>
                 <p className="t1">셀리드</p>
                 <p className="t2">http://www.cellid.co.kr/</p>
-                <i className="r"></i>
+                <BsAspectRatio className="type" />
                 </a>
             </li>
             <li>
@@ -60,7 +66,7 @@ function Portpolio() {
                 </div>
                 <p className="t1">오투옥션</p>
                 <p className="t2">http://o2auction.com/</p>
-                <i className="r"></i>
+                <BsAspectRatio className="type" />
                 </a>
             </li>
             <li>
@@ -70,7 +76,7 @@ function Portpolio() {
                 </div>
                 <p className="t1">신선설농탕</p>
                 <p className="t2"></p>
-                <i className="r"></i>
+                <BsAspectRatio className="type" />
                 </a>
             </li>
             <li>
@@ -80,7 +86,8 @@ function Portpolio() {
                 </div>
                 <p className="t1">피자마루</p>
                 <p className="t2"></p>
-                <i className="r"></i>
+                <BsDisplay className="type" />
+                <BsTablet className="type" />
                 </a>
             </li>
             </ul>
